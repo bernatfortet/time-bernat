@@ -10,17 +10,11 @@ var api = {};
   fullCalendar:{
     start: '10:00', // a start time (10am in this example)
     end: '18:00', // an end time (6pm in this example)
-    weekends: false
   },
   timekitFindTime: {
     filters: {
-      and: [
-        {
-          exclude_weekend: { }
-        },
         { "specific_time": {"start": 9, "end": 20} }
-        
-      ]
+    ]
     }
   }
 }</script></div></body></html>
